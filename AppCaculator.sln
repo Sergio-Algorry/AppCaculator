@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppCaculator.FE", "AppCaculator.FE\AppCaculator.FE.csproj", "{D6603322-1F94-458E-A40A-98C965E67FE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppCaculator.BE", "AppCaculator.BE\AppCaculator.BE.csproj", "{CAD3A2C9-704B-4A0F-B0F7-E15A67B9B50E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6603322-1F94-458E-A40A-98C965E67FE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6603322-1F94-458E-A40A-98C965E67FE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6603322-1F94-458E-A40A-98C965E67FE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6603322-1F94-458E-A40A-98C965E67FE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAD3A2C9-704B-4A0F-B0F7-E15A67B9B50E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAD3A2C9-704B-4A0F-B0F7-E15A67B9B50E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAD3A2C9-704B-4A0F-B0F7-E15A67B9B50E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAD3A2C9-704B-4A0F-B0F7-E15A67B9B50E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {12DE0A15-72E8-479B-902D-5CAC8E19494B}
+	EndGlobalSection
+EndGlobal
