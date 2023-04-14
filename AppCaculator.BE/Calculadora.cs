@@ -8,12 +8,14 @@ namespace AppCaculator.BE
 {
     public class Calculadora
     {
-        public int Resultado { get; set; }
-        public int Operador { get; set; }
+        public int Resultado { get; set; } = 0;
+        public int Operador1 { get; set; } = 0;
+        public int Operador2 { get; set; } = 0;
 
         public int Suma() 
         {
-            Resultado = Resultado + Operador;
+            Resultado = Operador1 + Operador2;
+            Operador1 = Resultado;
             return Resultado; 
         }
     }
